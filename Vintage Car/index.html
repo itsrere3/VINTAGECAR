@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Vintage Hub Cars</title>
+ <link rel="stylesheet" href="vintage.css">
+ <script src="/vintage.js" defer></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+  <div class="logo-container">
+    <img src="logo.png" alt="Vintage Hub Cars Logo" class="logo">
+    <div class="site-name">Vintage Hub Cars</div>
+  </div>
+  
+  <nav>
+    <a href='index.html'>Home</a>
+    <a href='shop.html'>Shop</a>
+    <a href='about.html'>About Us</a>
+  </nav>
+
+  <div class="header-right">
+    <!-- Search Container -->
+    <div class="search-container">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-box" placeholder="Search...">
+    </div>
+
+    <!-- Cart Icon -->
+    <div class="cart-icon">🛒 0</div>
+
+    <!-- Wishlist Button -->
+    <button class="wishlist-btn">Wishlist (<span id="wishlist-count">0</span>)</button>
+	<a class='login-icon' href='login.html'>
+ <span class="login-icon-text">👤</span> 
+ </a>
+  </div>
+</header>
+
+    <!-- Hero Section -->
+<section class="hero">
+ <div class="hero-content">
+ <h1>VINTAGE PARTS</h1>
+ <p>Your Trusted Source For High-quality Classic Car Parts, Find Rare and Authentic Components For Vintage Restorations.</p>
+ <a href='shop.html'><button class="shop-btn">Browse Collection</button></a>
+ </div>
+ <div class="hero-image-container">
+ <img src="pic1.png" alt="Mercedes-Benz R107 SL">
+ <p class="image-alt-text">Mercedes-Benz R107 SL</p>
+ </div>
+</section>
+
+	
+        <!-- Contact Us Section -->
+ <section class="contact-us">
+ <h2>Contact Us</h2>
+
+  <div class="contact-icons">
+  <div class="contact-item" onclick="toggleContactInfo('email-info')">
+         📧
+  <span id="email-info" class="contact-info">vintagehubcars@gmail.com</span>
+  </div>
+  <div class="contact-item" onclick="toggleContactInfo('phone-info')">
+         📞
+  <span id="phone-info" class="contact-info">+966 055 195 2314</span>
+  </div>
+  <div class="contact-item" onclick="toggleContactInfo('location-info')">
+         📍
+  <span id="location-info" class="contact-info">Dharan, Saudi Arabia</span>
+  </div>
+  </div>
+  </section>
+
+    <<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<!-- Footer -->
+<footer>
+   <p>© 2025 Vintage Hub Cars - All Rights Reserved</p>
+   <div class="social-icons">
+   <div class="social-item">
+   <i class="fa-brands fa-x-twitter"></i>
+   <span>Vintage.Hub.Cars</span>
+    </div>
+    <div class="social-item">
+    <i class="fa-brands fa-instagram"></i>
+    <span>Vintage.Hub.Cars</span>
+    </div>
+    <div class="social-item">
+    <i class="fa-brands fa-tiktok"></i>
+    <span>Vintage.Hub.Cars</span>
+    </div>
+    </div>
+</footer>
+</body> 
+</html>

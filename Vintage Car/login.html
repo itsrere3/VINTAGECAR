@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Vintage Hub Cars</title>
+ <link rel="stylesheet" href="vintage.css">
+ <script src="vintage.js" defer></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+  <div class="logo-container">
+    <img src="logo.png" alt="Vintage Hub Cars Logo" class="logo">
+    <div class="site-name">Vintage Hub Cars</div>
+  </div>
+  
+  <nav>
+  <a href='index.html'>Home</a>
+  <a href='shop.html'>Shop</a>
+  <a href='about.html'>About Us</a>
+  </nav>
+
+  <div class="header-right">
+  <!-- Search Container -->
+  <div class="search-container">
+  <span class="search-icon">🔍</span>
+  <input type="text" class="search-box" placeholder="Search...">
+  </div>
+
+ <!-- Cart Icon -->
+ <div class="cart-icon">🛒 0</div>
+
+ <!-- Wishlist Button -->
+ <button class="wishlist-btn">Wishlist (<span id="wishlist-count">0</span>)</button>
+<a class='login-icon' href='/login'>
+ <span class="login-icon-text">👤</span> 
+ </a>
+  </div>
+</header>
+	<!-- log in Section -->
+ <section class="login-form">
+ <h1>Create an Account</h1>
+ <form action="/login" method="POST">
+ <div class="input-group">
+ <label for="username">Username</label>
+ <input type="text" id="username" name="username" placeholder="Enter your username" required>
+ </div>
+ <div class="input-group">
+ <label for="email">Email</label>
+ <input type="email" id="email" name="email" placeholder="Enter your email" required>
+ </div>
+ <div class="input-group">
+ <label for="phone">Phone Number</label>
+ <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+ </div>
+ <div class="input-group">
+ <label for="password">Password</label>
+ <input type="password" id="password" name="password" placeholder="Enter your password" required>
+ </div>
+ <button type="submit" class="login-button">Log In</button>
+</form>
+</section>
+
+ <!-- Contact Us Section -->
+ <section class="contact-us">
+ <h2>Contact Us</h2>
+
+  <div class="contact-icons">
+  <div class="contact-item" onclick="toggleContactInfo('email-info')">
+         📧
+  <span id="email-info" class="contact-info">vintagehubcars@gmail.com</span>
+  </div>
+  <div class="contact-item" onclick="toggleContactInfo('phone-info')">
+         📞
+  <span id="phone-info" class="contact-info">+966 055 195 2314</span>
+  </div>
+  <div class="contact-item" onclick="toggleContactInfo('location-info')">
+         📍
+  <span id="location-info" class="contact-info">Dharan, Saudi Arabia</span>
+  </div>
+  </div>
+  </section>
+
+    <<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<!-- Footer -->
+<footer>
+   <p>© 2025 Vintage Hub Cars - All Rights Reserved</p>
+   <div class="social-icons">
+   <div class="social-item">
+   <i class="fa-brands fa-x-twitter"></i>
+   <span>Vintage.Hub.Cars</span>
+    </div>
+    <div class="social-item">
+    <i class="fa-brands fa-instagram"></i>
+    <span>Vintage.Hub.Cars</span>
+    </div>
+    <div class="social-item">
+    <i class="fa-brands fa-tiktok"></i>
+    <span>Vintage.Hub.Cars</span>
+    </div>
+    </div>
+</footer>
+</body>
+</html>

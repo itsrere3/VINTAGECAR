@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Vintage Hub Cars</title>
+ <link rel="stylesheet" href="vintage.css">
+ <script src="vintage.js" defer></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+  <div class="logo-container">
+    <img src="logo.png" alt="Vintage Hub Cars Logo" class="logo">
+    <div class="site-name">Vintage Hub Cars</div>
+  </div>
+  
+  <nav>
+    <a href='/'>Home</a>
+    <a href='/shop'>Shop</a>
+    <a href=''>About Us</a>
+  </nav>
+
+  <div class="header-right">
+  <!-- Search Container -->
+  <div class="search-container">
+  <span class="search-icon">🔍</span>
+  <input type="text" class="search-box" placeholder="Search...">
+  </div>
+
+ <!-- Cart Icon -->
+ <div class="cart-icon">🛒 0</div>
+
+ <!-- Wishlist Button -->
+ <button class="wishlist-btn">Wishlist (<span id="wishlist-count">0</span>)</button>
+<a class='login-icon' href='login.html'>
+ <span class="login-icon-text">👤</span> 
+ </a>
+ </div>
+</header>
+    <!-- Categories Section -->
+<section class="categories">
+ <h2>Categories</h2>
+ <div class="category-list">
+ <div class="category">
+   <div class="category-title">Engine Parts</div>
+   <div class="sub-categories">
+    <a href="#">Spark Plugs</a>
+    <a href="#">Air & Oil Filters</a>
+    <a href="#">Fuel & Oil Pumps</a>
+    <a href="#">Belts</a>
+    <a href="#">Valves & Timing Chain</a>
+   </div>
+   </div>
+    <div class="category">
+    <div class="category-title">Suspension & Braking System</div>
+    <div class="sub-categories">
+   <a href="#">Shock Absorbers</a>
+     <a href="#">Control Arms</a>
+     <a href="#">Brake Pads & Rotors</a>
+     <a href="#">Differentials & Spacers</a>
+   </div>
+   </div>
+    <div class="category">
+    <div class="category-title">Cooling & AC System</div>
+    <div class="sub-categories">
+    <a href="#">Radiators</a>
+    <a href="#">Cooling Fans</a>
+    <a href="#">AC Compressors</a>
+    <a href="#">Evaporators</a>
+    </div>
+    </div>
+    </div>
+</section>
+
+
+    <!-- Why Choose Us -->
+<section class="why-us">
+    <div class="why-content">
+    <h1>Why Choose Us?</h1>
+    <p>Your classic car deserves nothing but the best. That’s why we bring you unmatched quality and finely crafted details—so every ride feels just as special as the first</p>
+    <p>Brief explanation of car parts: </p>
+
+    <!-- YouTube Video -->
+    <div class="video-container">
+    <iframe width="530" height="315"
+    src="https://www.youtube.com/embed/mbNgQwwkoIM"
+    frameborder="0" allowfullscreen>
+    </iframe>
+    </div>
+    </div>
+
+    <div class="why-images">
+        <img src="pic2.jpeg" alt="pic2">
+        <img src="pic3.png" alt="pic3">
+    </div>
+</section>
+    
+    <!-- Contact Us Section -->
+ <section class="contact-us">
+ <h2>Contact Us</h2>
+
+  <div class="contact-icons">
+  <div class="contact-item" onclick="toggleContactInfo('email-info')">
+        📧
+  <span id="email-info" class="contact-info">vintagehubcars@gmail.com</span>
+  </div>
+  <div class="contact-item" onclick="toggleContactInfo('phone-info')">
+         📞
+   <span id="phone-info" class="contact-info">+966 055 195 2314</span>
+   </div>
+   <div class="contact-item" onclick="toggleContactInfo('location-info')">
+         📍
+    <span id="location-info" class="contact-info">Dharan, Saudi Arabia</span>
+    </div>
+    </div>
+    </section>
+
+         <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Footer -->
+ <footer>
+  <p>© 2025 Vintage Hub Cars - All Rights Reserved</p>
+  <div class="social-icons">
+  <div class="social-item">
+  <i class="fa-brands fa-x-twitter"></i>
+    <span>Vintage.Hub.Cars</span>
+  </div>
+  <div class="social-item">
+   <i class="fa-brands fa-instagram"></i>
+  <span>Vintage.Hub.Cars</span>
+   </div>
+   <div class="social-item">
+   <i class="fa-brands fa-tiktok"></i>
+    <span>Vintage.Hub.Cars</span>
+    </div>
+    </div>
+    </footer>
+
+</body>
+</html>
+
